@@ -1,11 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:wght@200&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:wght@200&display=swap'); */
 
 .brand{
-    color: #fff; /* цвет текста */
-    text-decoration: none; /* убирать подчёркивание у ссылок */
-    user-select: none; /* убирать выделение текста */
-    background: rgb(212,75,56); /* фон кнопки */
-    padding: .7em 1.5em; /* отступ от текста */
-    outline: none; /* убирать контур в Mozilla */
-    font-family: 'Oswald', sans-serif;
+    /* display: flex; */
+    font-size: 200%;
+    justify-content: center;
+    
+}
+.button{
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around
+}
+a {
+    letter-spacing: 10px;
+}
+a:last-child{
+    margin-right: 4%;
+}
+a:first-child{
+    margin-left: 2%;
 }

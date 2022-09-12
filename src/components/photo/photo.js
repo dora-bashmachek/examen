@@ -1,6 +1,6 @@
 import "./photo.css";
-import jordanPNG from "./jordan.1.webp";
-import vansPNG from "./vanse.2.webp";
+import jordanPNG from "./jordan.2.webp";
+import vansPNG from "./vanse.6.webp";
 import conversePNG from "./converse.1.jpg";
 import {Component} from 'react';
 
@@ -8,15 +8,15 @@ class Photo extends Component {
     render(){
         return(
             <div className="photo">
-            <a>
+            <div>
             <img src={jordanPNG}/> 
-            </a>
-            <a>
-            <img src={vansPNG}/> 
-            </a>
-            <a>
+            </div>
+            <div>
             <img src={conversePNG}/> 
-            </a>
+            </div>
+            <div>
+            <img src={vansPNG}/> 
+            </div>
             </div>
         )
     }

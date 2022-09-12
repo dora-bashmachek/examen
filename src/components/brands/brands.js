@@ -1,26 +1,28 @@
 import "./brands.css";
 const Brands  =()=> {
           const data=[
+            {name:'Jordan'},
             {name:'Converse'},
-            {name:'Vans'},
-            {name:'Jordan'}
+            {name:'Vans'}
           ]
-         const buttons=data.map(({name})=>{
+         const a=data.map(({name})=>{
         // const active=props.filter===name;
         // const classCss=active? 'btn btn-light': "btn btn-light-light";
         return(
-            <button type="button"
+            <a type="button"
             key={name}>
             {/* // onClick={()=>props.onFilterSelect(name)}
             //     {label} */}
             {name}
-            </button>
+            </a>
             )
         })
         return(
-        <div className="brand">
-            {buttons}
+          <div className="brand">
+        <div className="button">
+            {a}
         </div> 
+        </div>
         )
     
 }

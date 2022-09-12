@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:wght@200&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:wght@200&display=swap'); */
 
-.login{
+/* .login{
     display: flex;
     justify-content: center;
 }
@@ -8,11 +8,9 @@
     width: 250px;
     height: 75px;
     color: rgb(49 45 142);
-    /* border-radius: 5px; */
     cursor: pointer;
     transition: all 0.3s ease;
     font-size: 500%;
-    /* box-shadow: inset 2px 2px 2px 0px rgb(255 255 255 / 50%), 7px 7px 20px 0px rgb(0 0 0 / 10%), 4px 4px 5px 0px rgb(0 0 0 / 10%); */
 }
 .btn-7 {
   background: transparent;
@@ -24,7 +22,19 @@
     color: #fff;
     background: linear-gradient(0deg, rgb(49 44 142) 0%, rgb(88 241 119) 100%);
     
-}
+} */
+
+
+
+
+
+
+
+
+
+
+
+
 /* .btn-7 span {
   position: relative;
   display: block;

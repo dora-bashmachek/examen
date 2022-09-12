@@ -5,7 +5,7 @@ import {Component} from 'react';
 class Logo extends Component {
     render(){
         return(
-            <img src={logoPNG}/> 
+            <img className="logo" src={logoPNG}/> 
         )
     }
 }
