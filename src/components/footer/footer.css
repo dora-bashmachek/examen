@@ -1,0 +1,14 @@
+.foot{
+    display: flex;
+    justify-content: center;
+    opacity: 0.6;
+    color: black;
+    font-size: 78%;
+    padding-top: 1%;
+}
+.line{
+    border-top-color: #a3a3a3; 
+    border-top-style: solid; 
+    border-top-width: 1px;
+    width: 55%;
+}

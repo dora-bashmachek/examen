@@ -1,24 +1,32 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:wght@200&display=swap'); */
 
-.brand{
-    /* display: flex; */
-    font-size: 200%;
-    justify-content: center;
-    
-}
-.button{
-    border: none;
-    text-decoration: none;
-    cursor: pointer;
+.button {
     display: flex;
-    justify-content: space-around
+    justify-content: space-around;
 }
-a {
+button {
+    background-color: white;
+    border: 1px solid;
+    color: black;
+    padding: 19px 48px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+button:hover {
+    color: #323232;
+    opacity: 0.6;
+  }
+button {
     letter-spacing: 10px;
 }
-a:last-child{
+button:last-child{
     margin-right: 4%;
 }
-a:first-child{
+button:first-child{
     margin-left: 2%;
 }
+
+
